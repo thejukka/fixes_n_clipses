@@ -6,6 +6,7 @@
 *
 * 192.168.
 * 192.168.0.0
+* 192.168.0.10-25
 * 192.168.*
 * 192.168.*.*
 * domain.*
@@ -23,7 +24,7 @@ var IPAddress = {
 	errMsg: {
 		"pre"		: gettext("Virheellinen IP-asetus: "),
 		"oletus"	: "\n"+gettext("IP-osoitemääritykset tulee antaa kokonaisuudessaan \\
-                              IPv4-standardin mukaisesti (esim. 192.168.*.*)"),
+                                                IPv4-standardin mukaisesti (esim. 192.168.*.*)"),
 		"val"		: "\n"+gettext("Arvojen tulee olla välillä 0-255"),
 		"std"		: "\n"+gettext("Asetus ei ole IPv4-standardin mukainen"),
 		"path"		: "\n"+gettext("Polkumääritykset eivät ole sallittuja"),
